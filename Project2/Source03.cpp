@@ -15,25 +15,25 @@ using namespace std;
 // 자료형(Type)
 // 컴퓨터가 데이터를 판단하는 기준이다.
 
-extern int i;     // i에 대한 선언(i가 외부에 존재하고 있음(extern)을 알려준다.)
-int k;     // 변수 k에 대한 정의(선언)
-int q = 5;     // 변수 q에 대한 정의(초기화)
-
-int main()
-{
-	int integer = 10;     // 소수점 없는 숫자를 표현할 때 쓰는 자료형 int(정수형)
-	float Float = 3.141592f;     // 소수점이 있는 숫자를 표현할 수 있는 자료형, 뒤에는 f가 붙는다.(실수형)
-	// Float = -3.14e+16;
-	char alphabet = 'a';     // 문자를 표현하는 자료형, 작은 따옴표로 감싸주며 문자 1개만 표현한다.(문자형 / 정수형)
-	bool onoff = true;     // true와 false를 통해 프로그램 내에서 참과 거짓을 표현하는 자료형(논리형)
-	bool result = 10 > 5;     // 식에 대한 결과를 저장하는 경우도 bool로 처리 가능하다.
-	string word = "C++ Programming";     // 문장을 표현하는 클래스 개체 string
-	// C언어에서는 char[] (문자의 배열)을 통해 사용하고 있다.
-	word = "Apple";     // C언어에서는 안되던 초기화가 가능하다.
-	cout << word.at(0) << endl;     // 문장을 작업할 때 필요혀나 기능들도 따로 제공된다.
-	// 현재의 기능은 전체 문장 중 첫 번째 단어 하나를 뽑는 기능
-	word += " Juice";
-	cout << word << endl;
-
-	return 0;
-}
+//extern int i;     // i에 대한 선언(i가 외부에 존재하고 있음(extern)을 알려준다.)
+//int k;     // 변수 k에 대한 정의(선언)
+//int q = 5;     // 변수 q에 대한 정의(초기화)
+//
+//int main()
+//{
+//	int integer = 10;     // 소수점 없는 숫자를 표현할 때 쓰는 자료형 int(정수형)
+//	float Float = 3.141592f;     // 소수점이 있는 숫자를 표현할 수 있는 자료형, 뒤에는 f가 붙는다.(실수형)
+//	// Float = -3.14e+16;
+//	char alphabet = 'a';     // 문자를 표현하는 자료형, 작은 따옴표로 감싸주며 문자 1개만 표현한다.(문자형 / 정수형)
+//	bool onoff = true;     // true와 false를 통해 프로그램 내에서 참과 거짓을 표현하는 자료형(논리형)
+//	bool result = 10 > 5;     // 식에 대한 결과를 저장하는 경우도 bool로 처리 가능하다.
+//	string word = "C++ Programming";     // 문장을 표현하는 클래스 개체 string
+//	// C언어에서는 char[] (문자의 배열)을 통해 사용하고 있다.
+//	word = "Apple";     // C언어에서는 안되던 초기화가 가능하다.
+//	cout << word.at(0) << endl;     // 문장을 작업할 때 필요혀나 기능들도 따로 제공된다.
+//	// 현재의 기능은 전체 문장 중 첫 번째 단어 하나를 뽑는 기능
+//	word += " Juice";
+//	cout << word << endl;
+//
+//	return 0;
+//}

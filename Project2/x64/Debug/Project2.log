@@ -1,2 +1,4 @@
-﻿  Source03.cpp
+﻿  Source05.cpp
+C:\0_Hunseok\C++\Project2\Project2\Source05.cpp(44,6): warning C4101: 'ball' :참조되지 않은 지역 변수입니다.
+C:\0_Hunseok\C++\Project2\Project2\Source05.cpp(43,6): warning C4101: 'strike' :참조되지 않은 지역 변수입니다.
   Project2.vcxproj -> C:\0_Hunseok\C++\Project2\x64\Debug\Project2.exe
